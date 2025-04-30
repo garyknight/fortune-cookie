@@ -1,5 +1,5 @@
 component {
-    
+
     function up( schema, qb ) {
         schema.create( "fortunes", ( t ) => {
             t.guid( "id" ).default( "(UUID())").primaryKey();

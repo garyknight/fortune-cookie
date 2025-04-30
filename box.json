@@ -25,11 +25,13 @@
     "installPaths":{
         "coldbox":"coldbox/",
         "testbox":"testbox/",
-        "qb":"modules/qb/"
+        "qb":"modules/qb/",
+        "cfmigrations":"modules/cfmigrations/"
     },
     "dependencies":{
         "coldbox":"^7.0.0",
-        "qb":"^11.1.0"
+        "qb":"^11.1.0",
+        "cfmigrations":"^4.1.3"
     },
     "scripts":{
         "postInstall":"pathExists .env || cp .env.example .env && package set ignore=[]",
